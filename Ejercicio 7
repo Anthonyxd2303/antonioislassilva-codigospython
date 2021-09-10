@@ -1,0 +1,20 @@
+def cuen(prestamo,meses):
+    cuota=prestamo/meses
+    return cuota
+    
+    def Pres():
+    prestamo= input("Monto de tu prestamo? ")
+    meses= input("En cuantos meses deseas pagar? ")
+    print ("Monto de pago por mes es: ",str(cuen(prestamo,meses)))
+    
+    edad= int (input ("Dame tu edad: "))
+if edad >= 18:
+    ingresos=int(input("Ingresa tus ingresos: "))
+    egresos=int(input("Ingresa tus egresos: "))
+    if ingresos >= egresos:
+        Pres()
+    else:
+        print("Sus ingresos deben ser mayores.")
+
+else:
+    print ("No eres mayor de edad.")
