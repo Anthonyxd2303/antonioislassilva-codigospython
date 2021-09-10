@@ -1,8 +1,0 @@
-from math import sqrt
-a=int(input("introduce el valor de 'a'"))
-b=int(input("introduce el valor de 'b'"))
-c=int(input("introduce el valor de 'c'"))
-x1=(-b+(((b**2)-(4*a*c))**0.5))/(2*a) 
-x2=(-b-(((b**2)-(4*a*c))**0.5))/(2*a)
-print("El valor de x1 es:" + str(x1))
-print("El valor de x2 es:"+ str(x2))
