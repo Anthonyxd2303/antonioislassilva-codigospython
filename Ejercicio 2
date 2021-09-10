@@ -1,0 +1,4 @@
+nom=(input("Introduce tu nombre"))
+tel=(input("introduce tu numero telefonico: "))
+email=(input("Introduce tu correo electronico: "))
+print("Bienvenid@ "+nom+"\n"+"tu numero tel. es: "+tel+"\n"+"y tu correo electronico es: "+email)
