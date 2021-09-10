@@ -1,6 +1,0 @@
-star =5
-for i in range (star):
-    print (" *"*(i+1))
-    
-for j in range (star):
-    print (" *"*(star-j-1))
