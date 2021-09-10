@@ -1,0 +1,6 @@
+palabra=[]
+palabra=input("Ingresa la palabra a invertir: ")
+arbalap=""
+for i in palabra:
+    arbalap=i+arbalap
+print(arbalap)
