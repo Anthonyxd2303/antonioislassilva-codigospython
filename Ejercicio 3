@@ -1,0 +1,4 @@
+res1=float(input("Valor de la resistencia 1:"))## 2 Resistencias total en pararlelo
+res2=float(input("Valor de la resistencia 2:"))
+rest=1/(1/fres1+1/fres2)
+print("La resistencia total es: "+str(rest))
